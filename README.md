@@ -11,7 +11,6 @@ The primary goal of this project is to collect financial data from different sou
 * Interactive Visualizations: Generates dynamic and interactive plots, allowing users to explore trends and patterns in financial data.
 
 ## Technologies Used
-This project leverages the following Python libraries:
 * yfinance: A powerful and convenient library for downloading historical market data from Yahoo Finance
 * requests: Used to send HTTP requests to web pages, enabling the retrieval of HTML content for scraping.
 * BeautifulSoup: A library for parsing HTML and XML documents, making it easy to extract specific data from web pages.
@@ -20,8 +19,6 @@ This project leverages the following Python libraries:
 * make_subplots (from plotly.subplots): Enables the creation of subplots within a single figure, ideal for displaying multiple related financial metrics simultaneously.
 
 ## Project Steps
-The project workflow is structured into the following key steps:
-
 ### Step 1: Extract Stock Data from Yahoo Finance
 This step involves using the yfinance library to programmatically fetch historical stock data for a specified ticker symbol. This data typically includes opening price, closing price, high, low, and volume over a defined period.
 
